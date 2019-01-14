@@ -12,3 +12,15 @@ html, body {
 body {
 	background-color: salmon;
 }
+
+.grid-parent {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: 3vw 3vw 3vw 3vw;
+	grid-gap: 1vw;
+	margin: 3vw;
+}
+
+.grid-item {
+	border: white solid 2px;
+}
